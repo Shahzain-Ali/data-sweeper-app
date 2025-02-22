@@ -1,0 +1,57 @@
+.main {
+    background-color: #121212;
+}
+
+.block-container {
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #66c2ff;
+}
+
+.stButton>button {
+    border: none;
+    border-radius: 8px;
+    background-color: #0078D7;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.stButton>button:hover {
+    background-color: #005a9e;
+    cursor: pointer;
+}
+
+.stDataFrame, .stTable {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.css-1aumxhk, .css-18e3th9 {
+    text-align: left;
+    color: white;
+}
+
+.stRadio>label {
+    font-weight: bold;
+    color: white;
+}
+
+.stCheckbox>label {
+    color: white;
+}
+
+.stDownloadButton>button {
+    background-color: #28a745;
+    color: white;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #218838;
+}
