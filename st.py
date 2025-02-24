@@ -60,8 +60,15 @@ if uploaded_files:
 
         # Choose specific column to keep or convert 
         st.subheader("Select columns to convert")
-        columns = st.multiselect(f"Choose columns for {file.name}", df.columns , default=df.columns)
-        df = df[columns]
+        available_columns = list(df.columns)
+        selected_columns = st.multiselect(
+            f"Choose columns for {file.name}",
+            options=available_columns,
+            default=available_columns
+        )
+
+        if selected_columns:
+            df = df[selected_columns]
 
 
         # Create some visualizations
